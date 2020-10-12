@@ -1,0 +1,26 @@
+.login{
+    background-color: #33aef0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .el-card{
+        width: 400px;
+        height: 400px;
+        border-radius:20px;
+        .imginfo{
+            width: 500px;
+            height: 100px;
+        }
+        /deep/.el-card__header{
+            padding: 0;
+            height: 80px;
+        }
+        .el-button{
+            width:95%;
+            margin-left:20px;
+            margin-bottom:5px;
+        }
+    }
+}
